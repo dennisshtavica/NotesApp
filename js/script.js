@@ -5,10 +5,6 @@ const btn1 = document.querySelector(".btn1");
 const title = document.querySelector(".title");
 const notesDrop = document.querySelector(".note");
 
-function myFun1() {
-  textInput.style.backgroundColor = "#BCA1FF";
-  form.style.backgroundColor = "#BCA1FF";
-}
 
 btn1.addEventListener("click", (e) => {
   if (textInput.value == "") {
